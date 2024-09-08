@@ -5,11 +5,11 @@ import { Link } from "expo-router";
 export default function App() {
   return (
     <View className="bg-red-400 flex flex-1 items-center justify-center">
-      <Text className="text-xl font-semibold font-pblack text-center">
+      <Text className="text-xl font-semibold font-pextrabold text-center">
         Open up App.js to start working on your app!
       </Text>
-      <StatusBar style="auto" />
-      <Link href={"/profile"}>Profile 1</Link>
+      {/* <StatusBar style="auto" /> */}
+      <Link href={"/home"}>Go to Home</Link>
     </View>
   );
 }
