@@ -3,8 +3,8 @@ import React from "react";
 
 const SignIn = () => {
   return (
-    <View>
-      <Text>SignIn</Text>
+    <View className="flex items-center justify-center h-full">
+      <Text className="font-pregular">SignIn</Text>
     </View>
   );
 };
