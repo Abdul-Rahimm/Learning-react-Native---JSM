@@ -46,6 +46,14 @@ export default function App() {
             }}
             containerStyles="w-full mt-7"
           />
+
+          <CustomButtom
+            title="Test Button"
+            handlePress={() => {
+              router.push("/test");
+            }}
+            containerStyles="w-full mt-2"
+          />
         </View>
       </ScrollView>
 
