@@ -26,7 +26,7 @@ const SignIn = () => {
           <FormField
             title="Email"
             value={form.mail}
-            handleChangeText={(e) => setForm({ ...form, email: e })}
+            handleChangeText={(e) => setForm({ ...form, mail: e })}
             otherStyles="mt-7"
             keyboardType="email-address"
           />
@@ -36,6 +36,7 @@ const SignIn = () => {
             value={form.password}
             handleChangeText={(e) => setForm({ ...form, password: e })}
             otherStyles="mt-7"
+            keyboardType="password"
           />
         </View>
       </ScrollView>
