@@ -5,4 +5,5 @@ export const appwriteConfig = {
   databaseId: "6725b0020000f9762f32",
   userCollectionId: "6725b063001ec6576265",
   videoCollectionId: "6725b09d003c59c58b27",
+  storageId: "6725b2df0021be175df9",
 };
